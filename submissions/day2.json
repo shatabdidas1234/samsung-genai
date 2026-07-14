@@ -1,0 +1,19 @@
+{
+  "day": 2,
+  "student_name": "Shatabdi Das",
+  "github": "https://github.com/shatabdidas1234",
+  "lab1_scenario": "A",
+  "lab1_prompt": "You are a Samsung Care+ Customer Support Specialist handling customer escalations.\n\nDraft a professional response to resolve the customer's third Galaxy Watch battery complaint while maintaining customer trust and satisfaction, without promising a refund.  Context\n\nContext: The customer has reported battery issues with their Galaxy Watch for the third time this month. The device is still under the manufacturer's warranty, and the customer is frustrated due to repeated issues. Samsung wants to provide a positive support experience while following warranty policies.\n\nConstraints: Do not promise or imply a refund. Acknowledge the customer's frustration with empathy. Offer warranty support such as inspection, repair, or replacement if eligible. Keep the response between 120–150 words.\nAvoid technical jargon and legal language.\n\nTone: Empathetic, professional, reassuring, and customer-focused.\n\nOutput format: A single email-style customer support reply with a greeting, body, and professional closing.",
+  "lab1_output_met_constraints": true,
+  "lab1_extra_scenarios_done": 2,
+  "lab2_problem": "Galaxy Buds distribution centre — shipment/hold/restock",
+  "lab2_naive_output_summary": "The AI Model chosen is - Claude (Sonnet 5). According to the response given by Claude, 4,299 Galaxy Buds units available for sale.",
+  "lab2_cot_prompt": "You are a mathematical reasoning assistant and are solving the following inventory problem by showing all calculations clearly. Given that a Samsung SRM-area distribution centre starts the day with 4,200 Galaxy Buds units. A morning shipment sends out 850 units, split equally across three retail partners. After the shipment, place a quality hold on 6% of the remaining stock. An afternoon restock then adds 1,150 new units, and these new units are not subject to the quality hold.\n\nInstructions:\nRestate the important values.\nCalculate the remaining inventory after the shipment.\nCalculate the number of units placed on quality hold.\nDetermine how many units remain available after the hold.\nAdd the afternoon restock to the available units.\nShow every calculation clearly.\nPresent the final number of units available for sale.\nVerify the arithmetic before giving the final answer.\nWork through the problem one step at a time, showing each intermediate calculation before presenting the final result.",
+  "lab2_cot_output_summary": "Starting with 4,200 units, after shipping 850 units, placing 201 units (6%) on quality hold, and adding a 1,150-unit restock, the available inventory is recalculated step by step. Final available units for sale: 4,299 Galaxy Buds.",
+  "better_approach": "cot",
+  "stretch_done": true,
+  "stretch_react_prompt": "Chain of thought was more trustworthy because it happened to show the step by step to improve clarity of the problem",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-14T09:46:34.296Z"
+}
