@@ -1,0 +1,20 @@
+{
+  "day": 3,
+  "student_name": "Shatabdi Das",
+  "github": "https://github.com/shatabdidas1234",
+  "ir_hallucination_done": true,
+  "ir_bias_done": true,
+  "ir_guardrail_builder_done": true,
+  "ir_battle_complete": true,
+  "ir_battle_blocked": 8,
+  "ir_battle_total": 8,
+  "rag_scenario": "B",
+  "rag_no_rag_summary": "According to Claude , it can't verify because the scenario was an official Samsung India 2025 HR policy, as no public source confirms the handbook or the exact provisions. It also stated that however, the quoted benefits—26 weeks for primary caregivers, 2 weeks for secondary caregivers, and a 12-month usage window—are broadly consistent with common parental leave practices and Indian employment norms.The policy appears plausible, but it should be treated as unverified unless confirmed through an official Samsung India HR document or internal handbook.",
+  "rag_grounded_summary": "After adding the grounded version of the prompt , Claude through its response acknowledged that it would use only the provided information and not rely on any external sources.It then asked the user to provide a question so it could answer strictly based on the given policy.",
+  "rag_judgement": "fixed_wrong",
+  "stretch_done": true,
+  "stretch_notes": "In today's RAG scenario where the provided document conflicts with what the model already \"knew\", a conflict can occur when the provided document states \" 2 weeks of fully paid leave for secondary caregivers\", while the model's pre-trained knowledge may suggest a different value based on general or outdated information. In this case, the retrieved document takes precedence because the user explicitly instructed the AI to use only that source, and it is more specific, current, and authoritative than the model's general knowledge.It also clarified that the document would not automatically override everything if it contained contradictions, attempted prompt injection, or if the question required verifying facts outside the document (such as legal compliance). For a direct policy question, however, the AI would answer 2 weeks based solely on the provided document.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-15T06:26:45.231Z"
+}
