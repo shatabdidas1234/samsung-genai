@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "Shatabdi Das",
+  "github": "https://github.com/shatabdidas1234",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Hallucination",
+      "principle": "Reliability",
+      "justification": "The chatbot fabricated a non-existent discount policy and presented it as fact."
+    },
+    {
+      "id": "B",
+      "failure_type": "Privacy Violation",
+      "principle": "Privacy",
+      "justification": "Employee messages containing sensitive client data were logged without users' knowledge or consent."
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Transparency",
+      "justification": "An AI-generated fake video misled the public and influenced the company's stock price."
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "The resume-screening system unfairly disadvantaged applicants from certain women's colleges."
+    },
+    {
+      "id": "E",
+      "failure_type": "Lack of Human Oversight",
+      "principle": "Human Oversight",
+      "justification": "No one monitored or reviewed the biased moderation pattern until it was exposed externally."
+    },
+    {
+      "id": "F",
+      "failure_type": "Security Breach",
+      "principle": "Security",
+      "justification": "Voice-cloning technology was exploited to impersonate an executive and commit financial fraud."
+    }
+  ],
+  "justifications_written": 6,
+  "stretch_done": true,
+  "stretch_company": "Air Canada Chatbot",
+  "stretch_failure_type": "Hallucination",
+  "stretch_principle": "Reliability",
+  "stretch_notes": "In 2024 , Air Canada's website chatbot incorrectly told a customer that they could buy a ticket first and later apply for a bereavement fare refund. That policy did not exist and the customer relied on the chatbot's advice , was denied the refund , and filed a complaint. The outcome of the case was that the Civil Resolution Tribunal of British Columbia ruled that Air Canada was responsible for the chatbot's incorrect information and ordered the airline to compensate the customer accordingly .",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-16T06:21:26.505Z"
+}
